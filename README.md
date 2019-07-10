@@ -1,4 +1,4 @@
-# Argon2id support for spring-security-oauth2
+# Argon2 support for spring-security-oauth2
 
 Argon2 is a key derivation function that was selected as the winner of the Password Hashing Competition in July 2015.
 With a custom PasswordEncoderFactories implementation argon2 support is enabled as a PasswordEncoder variant.
