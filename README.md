@@ -50,6 +50,7 @@ public class UserService implements UserDetailsService {
 
     @PostConstruct
     public void init() {
+        // just for testing purposes only
         User user = new User();
         user.setEmail("admin");
         user.setPassword(passwordEncoder.encode("password"));
